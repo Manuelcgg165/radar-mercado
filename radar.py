@@ -485,6 +485,7 @@ def main() -> int:
 
     (SALIDA / "historial").mkdir(parents=True, exist_ok=True)
     radar.to_csv(SALIDA / "radar_mercado.csv", index=False)
+    radar.to_csv(SALIDA / "radar_mercado.tsv", sep="\t", decimal=",", index=False)  # para Google Sheets
     tabla.to_csv(SALIDA / "radar_universo.csv", index=False)
     tabla.to_csv(SALIDA / "historial" / f"universo_{fecha_datos.date().isoformat()}.csv", index=False)
     estado = {

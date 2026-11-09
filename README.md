@@ -25,6 +25,7 @@ Si una señal se repite varias semanas seguidas, su peso se divide entre el núm
 
 - `universo.csv`: valores (ticker de Yahoo Finance), nombre, tema y referencia. Si la referencia está vacía, el valor se compara con la media equiponderada de los demás valores del mismo tema sin referencia (cesta de pares).
 - `salida/radar_mercado.csv`: señales de la semana.
+- `salida/radar_mercado.tsv`: lo mismo con coma decimal, para importarlo en Google Sheets con `=IMPORTDATA("https://raw.githubusercontent.com/Manuelcgg165/radar-mercado/main/salida/radar_mercado.tsv")`.
 - `salida/radar_universo.csv`: métricas de todos los valores.
 - `salida/estado.json`: fecha de los datos y lo que ha fallado.
 - `salida/historial/`: una copia por semana, para evaluar más adelante si las señales anticipaban algo.
