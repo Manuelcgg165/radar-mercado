@@ -1,0 +1,13 @@
+{
+ "fecha_datos": "2026-11-06",
+ "generado_utc": "2026-11-09 20:54",
+ "valores": 160,
+ "con_datos": 160,
+ "senales": 12,
+ "sin_datos": {},
+ "datos_atrasados": [],
+ "referencias_sin_datos": [],
+ "divisas_sin_cambio": [],
+ "sec": "error: la SEC no respondió (company_tickers.json)",
+ "segundos": 127
+}
