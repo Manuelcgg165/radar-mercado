@@ -12,7 +12,7 @@ GitHub Actions lo lanza los sábados a las 07:00 UTC y cada vez que cambian `uni
 
 | Señal | Condición | Peso |
 |---|---|---|
-| Compras de directivos | Directivos o consejeros de empresas de EE. UU. compran en mercado al menos 100.000 $ en la semana (formulario 4 de la SEC) | 3, o 4 si son dos o más |
+| Compras de directivos | Directivos o consejeros de empresas de EE. UU. compran en mercado al menos 100.000 $ en la semana (formularios 4 de la SEC, leídos en OpenInsider) | 3, o 4 si son dos o más |
 | Volumen anómalo | Volumen medio de la semana ≥ 2 veces el de las 50 sesiones anteriores, o un día ≥ 4 veces la mediana, con un movimiento frente a la referencia de al menos 5 pp y 1,5 desviaciones típicas | 2 |
 | Ruptura de fuerza relativa | El cociente valor/referencia marca máximo de 6 meses y el valor le saca al menos 15 pp y 1,5 desviaciones típicas a 3 meses | 2 |
 | Máximo de 52 semanas | Cierre por encima de todos los del año anterior, y mejor que su referencia en el último mes | 1 |
@@ -44,5 +44,5 @@ Opcional: la SEC pide identificarse con un nombre y un correo de contacto. Puede
 ## Límites
 
 - Yahoo Finance no es una fuente oficial: puede fallar o cambiar sin aviso. Si falla más de la mitad del universo, el script no actualiza nada y la ejecución sale en rojo.
-- Las compras de directivos solo cubren empresas de EE. UU. Las europeas (CNMV, BaFin, AMF) no tienen una fuente gratuita unificada.
+- Las compras de directivos solo cubren empresas de EE. UU. La SEC bloquea las peticiones desde los servidores de GitHub, así que se leen de OpenInsider, un agregador gratuito que puede cambiar o cortar el acceso; si falla, el script lo intenta con la SEC. Las europeas (CNMV, BaFin, AMF) no tienen una fuente gratuita unificada.
 - Los datos de cada valor son los de su bolsa principal; el volumen de las acciones europeas no incluye otras plataformas de negociación.

@@ -15,6 +15,7 @@ cambio diario); los máximos, mínimos y volúmenes, en la divisa de cotización
 
 from __future__ import annotations
 
+import io
 import json
 import os
 import re
@@ -288,7 +289,42 @@ def parsear_form4(contenido: bytes) -> tuple[str, str, float]:
     return nombre, rol, usd
 
 
-def compras_directivos(tickers: list[str]) -> tuple[dict, int]:
+def compras_openinsider(tickers: list[str]) -> dict:
+    """Compras en mercado de los últimos días según OpenInsider (agregador de formularios 4)."""
+    url = ("http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=" + str(DIAS_DIRECTIVOS)
+           + "&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&vl=25&vh=&ocl=&och=&sic1=-1&sicl=100"
+           "&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=1000&page=1")
+    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (radar-mercado semanal)"}, timeout=60)
+    r.raise_for_status()
+    if "tinytable" not in r.text:
+        raise RuntimeError("página sin tabla de operaciones")
+    t = pd.read_html(io.StringIO(r.text), attrs={"class": "tinytable"})[0]
+    t.columns = [str(c).replace("\xa0", " ").strip() for c in t.columns]
+    t = t[t["Ticker"].astype(str).str.upper().isin({x.upper() for x in tickers})
+          & t["Trade Type"].astype(str).str.startswith("P")]
+    res = {}
+    for _, f in t.iterrows():
+        usd = float(re.sub(r"[^\d.]", "", str(f["Value"])) or 0)
+        rol = {"Dir": "consejero", "10%": "accionista >10 %"}.get(str(f["Title"]).strip(), str(f["Title"]).strip())
+        q = res.setdefault(str(f["Ticker"]).upper(), {}).setdefault(str(f["Insider Name"]), {"rol": rol, "usd": 0.0})
+        q["usd"] += usd
+    return res
+
+
+def compras_directivos(tickers: list[str]) -> tuple[dict, str]:
+    """Compras de directivos y fuente usada: OpenInsider y, si falla, la SEC directamente."""
+    try:
+        return compras_openinsider(tickers), "OpenInsider"
+    except Exception as e:  # noqa: BLE001
+        fallo = f"OpenInsider: {type(e).__name__}: {e}"[:120]
+    try:
+        res, n = compras_sec(tickers)
+        return res, f"SEC, identificación {n}"
+    except Exception as e:  # noqa: BLE001
+        raise RuntimeError(f"{fallo}; SEC: {e}") from None
+
+
+def compras_sec(tickers: list[str]) -> tuple[dict, int]:
     """({ticker: {persona: {"rol", "usd"}}}, n.º de identificación aceptada) de los últimos días."""
     ses = requests.Session()
     ses.headers.update({"Accept-Encoding": "gzip, deflate"})
@@ -317,7 +353,7 @@ def compras_directivos(tickers: list[str]) -> tuple[dict, int]:
     r, aceptada = None, 0
     for n, ua in enumerate(UAS_SEC, 1):
         ses.headers["User-Agent"] = ua
-        r = get("https://www.sec.gov/files/company_tickers.json", intentos=2)
+        r = get("https://www.sec.gov/files/company_tickers.json", intentos=1)
         if r is not None:
             aceptada = n
             break
@@ -405,8 +441,8 @@ def main() -> int:
 
     usa = [t for t in con_datos if "." not in t and "=" not in t and not t.startswith("^")]
     try:
-        compras, aceptada = compras_directivos(usa)
-        estado_sec = f"ok ({len(compras)} valores con compras; identificación {aceptada})"
+        compras, fuente = compras_directivos(usa)
+        estado_sec = f"ok ({fuente}; {len(compras)} valores con compras)"
     except Exception as e:  # noqa: BLE001
         compras, estado_sec = {}, f"error: {e}"[:200]
 
