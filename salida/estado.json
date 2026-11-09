@@ -1,6 +1,6 @@
 {
  "fecha_datos": "2026-11-06",
- "generado_utc": "2026-11-09 20:54",
+ "generado_utc": "2026-11-09 20:58",
  "valores": 160,
  "con_datos": 160,
  "senales": 12,
@@ -8,6 +8,6 @@
  "datos_atrasados": [],
  "referencias_sin_datos": [],
  "divisas_sin_cambio": [],
- "sec": "error: la SEC no respondió (company_tickers.json)",
- "segundos": 127
+ "sec": "error: company_tickers.json, HTTP 403: SEC.gov | Request Rate Threshold Exceeded    html {height: 100%} body {height: 100%; margin:0; padding:0;} #header {background-color:#003",
+ "segundos": 131
 }
