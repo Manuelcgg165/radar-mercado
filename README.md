@@ -15,9 +15,9 @@ GitHub Actions lo lanza los sábados a las 07:00 UTC y cada vez que cambian `uni
 | Compras de directivos | Directivos o consejeros de empresas de EE. UU. compran en mercado al menos 100.000 $ en la semana (formulario 4 de la SEC) | 3, o 4 si son dos o más |
 | Volumen anómalo | Volumen medio de la semana ≥ 2 veces el de las 50 sesiones anteriores, o un día ≥ 4 veces la mediana, con un movimiento frente a la referencia de al menos 5 pp y 1,5 desviaciones típicas | 2 |
 | Ruptura de fuerza relativa | El cociente valor/referencia marca máximo de 6 meses y el valor le saca al menos 15 pp y 1,5 desviaciones típicas a 3 meses | 2 |
-| Máximo de 52 semanas | Cierre por encima de todos los del año anterior | 1 |
+| Máximo de 52 semanas | Cierre por encima de todos los del año anterior, y mejor que su referencia en el último mes | 1 |
 | Hundimiento de fuerza relativa | Como la ruptura, a la baja | 1 |
-| Mínimo de 52 semanas | Cierre por debajo de todos los del año anterior | 1 |
+| Mínimo de 52 semanas | Cierre por debajo de todos los del año anterior, y peor que su referencia en el último mes | 1 |
 
 Si una señal se repite varias semanas seguidas, su peso se divide entre el número de semanas, para que suba lo nuevo. `radar_mercado.csv` recoge las 12 filas de mayor puntuación.
 

@@ -187,11 +187,12 @@ def senales_tecnicas(c: pd.Series, e: pd.Series, r: pd.Series | None, v: pd.Seri
         out["Volumen anómalo"] = {"dir": 1 if mov > 0 else -1, "xs": xs, "xd": xd, "mov": mov,
                                   "z": abs(mov) / sd5 if sd5 > 0 else np.nan}
 
-    if len(c) >= S12M:
+    if len(c) >= S12M:  # solo si además va mejor (o peor) que su referencia en el último mes
         previo = c.iloc[-S12M:-SEMANA]
-        if c.iloc[-SEMANA:].max() > previo.max():
+        rel1 = rel(e, r, S1M)
+        if c.iloc[-SEMANA:].max() > previo.max() and not rel1 <= 0:
             out["Máximo de 52 semanas"] = {"dir": 1}
-        if c.iloc[-SEMANA:].min() < previo.min():
+        if c.iloc[-SEMANA:].min() < previo.min() and not rel1 >= 0:
             out["Mínimo de 52 semanas"] = {"dir": -1}
 
     if r is not None:
@@ -286,15 +287,18 @@ def compras_directivos(tickers: list[str]) -> dict:
     """{ticker: {persona: {"rol", "usd"}}} con las compras de los últimos DIAS_DIRECTIVOS días."""
     ses = requests.Session()
     ses.headers.update({"User-Agent": SEC_UA, "Accept-Encoding": "gzip, deflate"})
+    ultimo = {"txt": "sin respuesta"}
 
     def get(url):
         for intento in range(3):
             time.sleep(0.15)  # la SEC admite 10 peticiones por segundo
             try:
                 r = ses.get(url, timeout=30)
-            except requests.RequestException:
+            except requests.RequestException as e:
+                ultimo["txt"] = type(e).__name__
                 time.sleep(3 * (intento + 1))
                 continue
+            ultimo["txt"] = f"HTTP {r.status_code}: " + re.sub(r"<[^>]+>|\s+", " ", r.text[:400]).strip()[:150]
             if r.status_code == 200:
                 return r
             if r.status_code in (403, 429, 500, 502, 503):
@@ -305,7 +309,7 @@ def compras_directivos(tickers: list[str]) -> dict:
 
     r = get("https://www.sec.gov/files/company_tickers.json")
     if r is None:
-        raise RuntimeError("la SEC no respondió (company_tickers.json)")
+        raise RuntimeError(f"company_tickers.json, {ultimo['txt']}")
     ciks = {v["ticker"].upper(): int(v["cik_str"]) for v in r.json().values()}
     desde = (date.today() - timedelta(days=DIAS_DIRECTIVOS)).isoformat()
     res = {}
