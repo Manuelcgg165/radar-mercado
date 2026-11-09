@@ -1,0 +1,161 @@
+ticker,nombre,tema,referencia
+NVDA,NVIDIA,Chips e IA,SOXX
+AMD,AMD,Chips e IA,SOXX
+AVGO,Broadcom,Chips e IA,SOXX
+TSM,TSMC,Chips e IA,SOXX
+MU,Micron,Chips e IA,SOXX
+ARM,Arm Holdings,Chips e IA,SOXX
+MRVL,Marvell,Chips e IA,SOXX
+QCOM,Qualcomm,Chips e IA,SOXX
+INTC,Intel,Chips e IA,SOXX
+AMAT,Applied Materials,Chips e IA,SOXX
+LRCX,Lam Research,Chips e IA,SOXX
+KLAC,KLA,Chips e IA,SOXX
+TER,Teradyne,Chips e IA,SOXX
+ONTO,Onto Innovation,Chips e IA,SOXX
+ALAB,Astera Labs,Chips e IA,SOXX
+CRDO,Credo Technology,Chips e IA,SOXX
+COHR,Coherent,Chips e IA,SOXX
+LITE,Lumentum,Chips e IA,SOXX
+MPWR,Monolithic Power Systems,Chips e IA,SOXX
+SNPS,Synopsys,Chips e IA,SOXX
+ASML.AS,ASML,Chips e IA,SOXX
+ASM.AS,ASM International,Chips e IA,SOXX
+BESI.AS,BE Semiconductor,Chips e IA,SOXX
+IFX.DE,Infineon,Chips e IA,SOXX
+STMPA.PA,STMicroelectronics,Chips e IA,SOXX
+SOI.PA,Soitec,Chips e IA,SOXX
+AIXA.DE,Aixtron,Chips e IA,SOXX
+NOD.OL,Nordic Semiconductor,Chips e IA,SOXX
+SMHN.DE,SUSS MicroTec,Chips e IA,SOXX
+MELE.BR,Melexis,Chips e IA,SOXX
+XFAB.PA,X-FAB,Chips e IA,SOXX
+000660.KS,SK Hynix,Chips e IA,SOXX
+005930.KS,Samsung Electronics,Chips e IA,SOXX
+8035.T,Tokyo Electron,Chips e IA,SOXX
+6857.T,Advantest,Chips e IA,SOXX
+MSFT,Microsoft,Chips e IA,QQQ
+GOOGL,Alphabet,Chips e IA,QQQ
+META,Meta Platforms,Chips e IA,QQQ
+AMZN,Amazon,Chips e IA,QQQ
+ORCL,Oracle,Chips e IA,QQQ
+PLTR,Palantir,Chips e IA,QQQ
+CRWV,CoreWeave,Chips e IA,QQQ
+NBIS,Nebius,Chips e IA,QQQ
+ANET,Arista Networks,Chips e IA,QQQ
+DELL,Dell Technologies,Chips e IA,QQQ
+SMCI,Super Micro Computer,Chips e IA,QQQ
+CLS,Celestica,Chips e IA,QQQ
+APH,Amphenol,Chips e IA,QQQ
+CIEN,Ciena,Chips e IA,QQQ
+LMT,Lockheed Martin,Defensa,ITA
+RTX,RTX,Defensa,ITA
+NOC,Northrop Grumman,Defensa,ITA
+GD,General Dynamics,Defensa,ITA
+LHX,L3Harris,Defensa,ITA
+HII,Huntington Ingalls,Defensa,ITA
+LDOS,Leidos,Defensa,ITA
+KTOS,Kratos,Defensa,ITA
+AVAV,AeroVironment,Defensa,ITA
+MRCY,Mercury Systems,Defensa,ITA
+KRMN,Karman,Defensa,ITA
+DRS,Leonardo DRS,Defensa,ITA
+ESLT,Elbit Systems,Defensa,ITA
+BWXT,BWX Technologies,Defensa,ITA
+CW,Curtiss-Wright,Defensa,ITA
+HEI,HEICO,Defensa,ITA
+RHM.DE,Rheinmetall,Defensa,
+BA.L,BAE Systems,Defensa,
+HO.PA,Thales,Defensa,
+LDO.MI,Leonardo,Defensa,
+SAAB-B.ST,Saab,Defensa,
+HAG.DE,Hensoldt,Defensa,
+R3NK.DE,Renk,Defensa,
+KOG.OL,Kongsberg Gruppen,Defensa,
+CHG.L,Chemring,Defensa,
+QQ.L,QinetiQ,Defensa,
+AM.PA,Dassault Aviation,Defensa,
+EXA.PA,Exail Technologies,Defensa,
+IDR.MC,Indra,Defensa,
+FCT.MI,Fincantieri,Defensa,
+THEON.AS,Theon International,Defensa,
+BAB.L,Babcock International,Defensa,
+AIR.PA,Airbus,Defensa,
+RKLB,Rocket Lab,Espacio,UFO
+FLY,Firefly Aerospace,Espacio,UFO
+PL,Planet Labs,Espacio,UFO
+BKSY,BlackSky,Espacio,UFO
+LUNR,Intuitive Machines,Espacio,UFO
+RDW,Redwire,Espacio,UFO
+VOYG,Voyager Technologies,Espacio,UFO
+SPIR,Spire Global,Espacio,UFO
+SATL,Satellogic,Espacio,UFO
+MDA.TO,MDA Space,Espacio,UFO
+OHB.DE,OHB,Espacio,UFO
+AVIO.MI,Avio,Espacio,UFO
+GOMX.ST,GomSpace,Espacio,UFO
+ASTS,AST SpaceMobile,Telecom y satélites,UFO
+IRDM,Iridium,Telecom y satélites,UFO
+GSAT,Globalstar,Telecom y satélites,UFO
+VSAT,Viasat,Telecom y satélites,UFO
+SATS,EchoStar,Telecom y satélites,UFO
+TSAT,Telesat,Telecom y satélites,UFO
+SESG.PA,SES,Telecom y satélites,UFO
+ETL.PA,Eutelsat,Telecom y satélites,UFO
+TEF.MC,Telefónica,Telecom y satélites,EXV2.DE
+CLNX.MC,Cellnex,Telecom y satélites,EXV2.DE
+NOKIA.HE,Nokia,Telecom y satélites,EXV2.DE
+ERIC-B.ST,Ericsson,Telecom y satélites,EXV2.DE
+AMP.MC,Amper,Telecom y satélites,EXV2.DE
+INW.MI,Inwit,Telecom y satélites,EXV2.DE
+VOD.L,Vodafone,Telecom y satélites,EXV2.DE
+CEG,Constellation Energy,Energía y red,XLU
+VST,Vistra,Energía y red,XLU
+NRG,NRG Energy,Energía y red,XLU
+TLN,Talen Energy,Energía y red,XLU
+NEE,NextEra Energy,Energía y red,XLU
+GEV,GE Vernova,Energía y red,GRID
+ETN,Eaton,Energía y red,GRID
+PWR,Quanta Services,Energía y red,GRID
+HUBB,Hubbell,Energía y red,GRID
+VRT,Vertiv,Energía y red,GRID
+BE,Bloom Energy,Energía y red,GRID
+ENR.DE,Siemens Energy,Energía y red,GRID
+SU.PA,Schneider Electric,Energía y red,GRID
+PRY.MI,Prysmian,Energía y red,GRID
+NEX.PA,Nexans,Energía y red,GRID
+NKT.CO,NKT,Energía y red,GRID
+ABBN.SW,ABB,Energía y red,GRID
+LR.PA,Legrand,Energía y red,GRID
+OKLO,Oklo,Energía y red,NLR
+SMR,NuScale Power,Energía y red,NLR
+IBE.MC,Iberdrola,Energía y red,EXH9.DE
+RED.MC,Redeia,Energía y red,EXH9.DE
+ELE.MC,Endesa,Energía y red,EXH9.DE
+NTGY.MC,Naturgy,Energía y red,EXH9.DE
+ANE.MC,Acciona Energía,Energía y red,EXH9.DE
+SLR.MC,Solaria,Energía y red,EXH9.DE
+GRE.MC,Grenergy,Energía y red,EXH9.DE
+ENEL.MI,Enel,Energía y red,EXH9.DE
+RWE.DE,RWE,Energía y red,EXH9.DE
+EOAN.DE,E.ON,Energía y red,EXH9.DE
+TRN.MI,Terna,Energía y red,EXH9.DE
+ELI.BR,Elia,Energía y red,EXH9.DE
+NG.L,National Grid,Energía y red,EXH9.DE
+CCJ,Cameco,Materias primas críticas,URA
+NXE,NexGen Energy,Materias primas críticas,URA
+UEC,Uranium Energy,Materias primas críticas,URA
+KAP.L,Kazatomprom,Materias primas críticas,URA
+FCX,Freeport-McMoRan,Materias primas críticas,COPX
+GLEN.L,Glencore,Materias primas críticas,COPX
+ANTO.L,Antofagasta,Materias primas críticas,COPX
+BOL.ST,Boliden,Materias primas críticas,COPX
+ATYM.L,Atalaya Mining,Materias primas críticas,COPX
+NDA.DE,Aurubis,Materias primas críticas,COPX
+MP,MP Materials,Materias primas críticas,REMX
+LYC.AX,Lynas Rare Earths,Materias primas críticas,REMX
+USAR,USA Rare Earth,Materias primas críticas,REMX
+ILU.AX,Iluka Resources,Materias primas críticas,REMX
+ALB,Albemarle,Materias primas críticas,LIT
+SQM,SQM,Materias primas críticas,LIT
+UMI.BR,Umicore,Materias primas críticas,LIT
