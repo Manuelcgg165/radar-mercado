@@ -1,6 +1,6 @@
 {
  "fecha_datos": "2026-11-09",
- "generado_utc": "2026-11-09 22:51",
+ "generado_utc": "2026-11-09 22:58",
  "valores": 160,
  "con_datos": 160,
  "senales": 12,
@@ -8,6 +8,6 @@
  "datos_atrasados": [],
  "referencias_sin_datos": [],
  "divisas_sin_cambio": [],
- "sec": "error: HTTP 403 (límite de peticiones) con 3 identificaciones distintas",
- "segundos": 142
+ "sec": "ok (OpenInsider; 2 valores con compras)",
+ "segundos": 91
 }
