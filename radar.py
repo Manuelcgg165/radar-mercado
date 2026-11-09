@@ -53,7 +53,12 @@ PESOS = {                   # puntuación de cada señal; se divide por las sema
 S1M, S3M, S6M, S12M = 21, 63, 126, 252
 RAIZ = Path(__file__).resolve().parent
 SALIDA = Path(os.environ.get("RADAR_SALIDA", RAIZ / "salida"))
-SEC_UA = os.environ.get("SEC_USER_AGENT") or "radar-mercado Manuelcgg165@users.noreply.github.com"
+UAS_SEC = [ua for ua in (  # identificaciones que se prueban con la SEC, en orden
+    os.environ.get("SEC_USER_AGENT"),
+    "radar-mercado Manuelcgg165@users.noreply.github.com",
+    "Manuel Garcia manuelcgg165@users.noreply.github.com",
+    "RadarMercado/1.0 (+https://github.com/Manuelcgg165/radar-mercado) Manuelcgg165@users.noreply.github.com",
+) if ua]
 SUFIJOS = {"L": "GBp", "ST": "SEK", "OL": "NOK", "CO": "DKK", "SW": "CHF", "TO": "CAD",
            "T": "JPY", "KS": "KRW", "AX": "AUD", "HK": "HKD"}
 
@@ -283,14 +288,14 @@ def parsear_form4(contenido: bytes) -> tuple[str, str, float]:
     return nombre, rol, usd
 
 
-def compras_directivos(tickers: list[str]) -> dict:
-    """{ticker: {persona: {"rol", "usd"}}} con las compras de los últimos DIAS_DIRECTIVOS días."""
+def compras_directivos(tickers: list[str]) -> tuple[dict, int]:
+    """({ticker: {persona: {"rol", "usd"}}}, n.º de identificación aceptada) de los últimos días."""
     ses = requests.Session()
-    ses.headers.update({"User-Agent": SEC_UA, "Accept-Encoding": "gzip, deflate"})
+    ses.headers.update({"Accept-Encoding": "gzip, deflate"})
     ultimo = {"txt": "sin respuesta"}
 
-    def get(url):
-        for intento in range(3):
+    def get(url, intentos=3):
+        for intento in range(intentos):
             time.sleep(0.15)  # la SEC admite 10 peticiones por segundo
             try:
                 r = ses.get(url, timeout=30)
@@ -298,7 +303,9 @@ def compras_directivos(tickers: list[str]) -> dict:
                 ultimo["txt"] = type(e).__name__
                 time.sleep(3 * (intento + 1))
                 continue
-            ultimo["txt"] = f"HTTP {r.status_code}: " + re.sub(r"<[^>]+>|\s+", " ", r.text[:400]).strip()[:150]
+            motivo = ("herramienta no declarada" if "Undeclared" in r.text
+                      else "límite de peticiones" if "Threshold" in r.text else r.text[:80])
+            ultimo["txt"] = f"HTTP {r.status_code} ({motivo})"
             if r.status_code == 200:
                 return r
             if r.status_code in (403, 429, 500, 502, 503):
@@ -307,9 +314,15 @@ def compras_directivos(tickers: list[str]) -> dict:
             return None
         return None
 
-    r = get("https://www.sec.gov/files/company_tickers.json")
+    r, aceptada = None, 0
+    for n, ua in enumerate(UAS_SEC, 1):
+        ses.headers["User-Agent"] = ua
+        r = get("https://www.sec.gov/files/company_tickers.json", intentos=2)
+        if r is not None:
+            aceptada = n
+            break
     if r is None:
-        raise RuntimeError(f"company_tickers.json, {ultimo['txt']}")
+        raise RuntimeError(f"{ultimo['txt']} con {len(UAS_SEC)} identificaciones distintas")
     ciks = {v["ticker"].upper(): int(v["cik_str"]) for v in r.json().values()}
     desde = (date.today() - timedelta(days=DIAS_DIRECTIVOS)).isoformat()
     res = {}
@@ -339,7 +352,7 @@ def compras_directivos(tickers: list[str]) -> dict:
                 q["usd"] += usd
         if compradores:
             res[t] = compradores
-    return res
+    return res, aceptada
 
 
 # ------------------------------------------------------------------- Principal
@@ -392,8 +405,8 @@ def main() -> int:
 
     usa = [t for t in con_datos if "." not in t and "=" not in t and not t.startswith("^")]
     try:
-        compras = compras_directivos(usa)
-        estado_sec = f"ok ({len(compras)} valores con compras)"
+        compras, aceptada = compras_directivos(usa)
+        estado_sec = f"ok ({len(compras)} valores con compras; identificación {aceptada})"
     except Exception as e:  # noqa: BLE001
         compras, estado_sec = {}, f"error: {e}"[:200]
 
