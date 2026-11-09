@@ -1,0 +1,161 @@
+fecha_datos,ticker,nombre,tema,referencia,divisa,precio,ret_5d,rel_5d,rel_1m,rel_3m,rel_6m,mom_12_1,vol_semana_x,vol_pico_x,dist_max52,compras_directivos_usd,senales,direccion,puntuacion,repetida,detalle,estado
+2026-11-09,RHM.DE,Rheinmetall,Defensa,pares de Defensa,EUR,845.4,-15.5,-13.0,-17.5,-18.3,-38.8,-46.9,2.63,6.75,-55.5,0,Volumen anómalo; Mínimo de 52 semanas,Bajista,3.0,no,"volumen de la semana 2,6× su media, pico diario 6,8×, con -13,0 pp frente a pares de Defensa (2,6 σ); nuevo mínimo de 52 semanas",ok
+2026-11-09,AMD,AMD,Chips e IA,SOXX,USD,508.58,8.3,11.8,4.9,25.5,29.5,162.3,2.46,3.81,-21.7,0,Volumen anómalo,Alcista,2.0,no,"volumen de la semana 2,5× su media, pico diario 3,8×, con +11,8 pp frente a SOXX (2,0 σ)",ok
+2026-11-09,ANET,Arista Networks,Chips e IA,QQQ,USD,186.17,12.8,13.6,-4.5,-0.6,43.0,65.8,2.6,3.81,-14.1,0,Volumen anómalo,Alcista,2.0,no,"volumen de la semana 2,6× su media, pico diario 3,8×, con +13,6 pp frente a QQQ (2,1 σ)",ok
+2026-11-09,MPWR,Monolithic Power Systems,Chips e IA,SOXX,USD,1388.05,10.9,14.4,21.4,17.2,1.1,49.4,2.13,3.83,-17.6,0,Volumen anómalo,Alcista,2.0,no,"volumen de la semana 2,1× su media, pico diario 3,8×, con +14,4 pp frente a SOXX (3,1 σ)",ok
+2026-11-09,NVDA,NVIDIA,Chips e IA,SOXX,USD,178.67,-12.1,-8.6,-0.8,-0.2,-1.2,25.3,2.04,4.24,-25.3,0,Volumen anómalo,Bajista,2.0,no,"volumen de la semana 2,0× su media, pico diario 4,2×, con -8,6 pp frente a SOXX (1,5 σ)",ok
+2026-11-09,FLY,Firefly Aerospace,Espacio,UFO,USD,24.31,48.4,44.8,22.5,5.7,-10.9,6.1,2.29,4.84,-58.7,0,Volumen anómalo,Alcista,2.0,no,"volumen de la semana 2,3× su media, pico diario 4,8×, con +44,8 pp frente a UFO (3,8 σ)",ok
+2026-11-09,CLS,Celestica,Chips e IA,QQQ,USD,222.92,-11.1,-10.2,-28.9,-23.5,-38.7,9.0,1.75,3.29,-52.8,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,MSFT,Microsoft,Chips e IA,QQQ,USD,545.18,6.9,7.7,11.5,14.2,39.0,11.3,1.5,2.54,-1.9,0,Máximo de 52 semanas,Alcista,1.0,no,nuevo máximo de 52 semanas,ok
+2026-11-09,AVAV,AeroVironment,Defensa,ITA,USD,126.96,2.6,3.0,-11.4,-21.3,-20.0,-57.2,1.05,2.08,-67.7,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,BWXT,BWX Technologies,Defensa,ITA,USD,127.99,-2.5,-2.0,-15.0,-10.2,-36.1,-23.5,1.81,3.12,-46.2,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,CW,Curtiss-Wright,Defensa,ITA,USD,482.03,-1.0,-0.6,-10.0,-17.6,-30.5,-8.6,1.3,1.9,-39.2,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,KTOS,Kratos,Defensa,ITA,USD,37.69,-6.9,-6.4,-15.1,-27.1,-30.6,-40.0,1.76,2.37,-71.2,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,MRCY,Mercury Systems,Defensa,ITA,USD,79.62,2.3,2.7,-3.9,-12.9,-9.2,8.1,1.51,2.32,-36.9,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,NRG,NRG Energy,Energía y red,XLU,USD,97.4,2.3,2.6,-15.1,-20.0,-28.1,-34.3,2.61,3.64,-46.5,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,SMR,NuScale Power,Energía y red,NLR,USD,5.44,1.1,-3.8,-15.9,-25.0,-25.2,-77.3,1.0,1.3,-82.1,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,VST,Vistra,Energía y red,XLU,USD,133.92,-1.1,-0.8,-22.8,-8.8,-10.5,-9.8,2.1,4.23,-29.5,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,CCJ,Cameco,Materias primas críticas,URA,USD,75.37,2.1,-1.6,-2.7,0.3,2.9,0.2,1.79,3.1,-43.8,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,MP,MP Materials,Materias primas críticas,REMX,USD,37.75,-2.1,-8.4,-6.3,-1.7,7.3,-8.9,1.74,3.24,-48.0,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,UEC,Uranium Energy,Materias primas críticas,URA,USD,7.62,0.9,-2.8,-5.4,-9.8,-14.4,-22.9,1.51,2.76,-62.2,0,Mínimo de 52 semanas,Bajista,1.0,no,nuevo mínimo de 52 semanas,ok
+2026-11-09,GSAT,Globalstar,Telecom y satélites,UFO,USD,85.78,2.8,-0.8,3.3,16.4,31.8,78.1,2.12,3.38,0.0,0,Máximo de 52 semanas,Alcista,1.0,no,nuevo máximo de 52 semanas,ok
+2026-11-09,CRWV,CoreWeave,Chips e IA,QQQ,USD,48.98,-2.9,-2.1,-30.7,-41.6,-55.3,-21.3,1.44,3.21,-64.5,0,Mínimo de 52 semanas,Bajista,0.33,sí,"nuevo mínimo de 52 semanas, 3.ª semana seguida",ok
+2026-11-09,OKLO,Oklo,Energía y red,NLR,USD,26.84,13.5,8.6,-14.1,-22.9,-32.1,-66.7,1.79,3.03,-76.2,0,Mínimo de 52 semanas,Bajista,0.25,sí,"nuevo mínimo de 52 semanas, 4.ª semana seguida",ok
+2026-11-09,ASTS,AST SpaceMobile,Telecom y satélites,UFO,USD,36.89,1.0,-2.7,-26.6,-36.2,-30.7,-20.0,1.77,2.93,-72.3,0,Mínimo de 52 semanas,Bajista,0.25,sí,"nuevo mínimo de 52 semanas, 4.ª semana seguida",ok
+2026-11-09,USAR,USA Rare Earth,Materias primas críticas,REMX,USD,8.76,-1.6,-7.9,-18.3,-24.4,-16.5,-18.6,1.3,1.76,-71.5,0,Mínimo de 52 semanas,Bajista,0.2,sí,"nuevo mínimo de 52 semanas, 5.ª semana seguida",ok
+2026-11-09,000660.KS,SK Hynix,Chips e IA,SOXX,KRW,1136000.0,-23.3,-19.8,-10.6,-10.6,-9.4,259.8,1.34,2.4,-61.1,0,,,0.0,,,ok
+2026-11-09,005930.KS,Samsung Electronics,Chips e IA,SOXX,KRW,189900.0,-17.5,-14.0,-5.7,0.8,-4.1,200.2,1.27,2.02,-46.6,0,,,0.0,,,ok
+2026-11-09,6857.T,Advantest,Chips e IA,SOXX,JPY,28375.0,-18.9,-12.0,-6.7,10.5,7.3,149.2,1.98,3.4,-32.2,0,,,0.0,,,ok
+2026-11-09,8035.T,Tokyo Electron,Chips e IA,SOXX,JPY,8492.0,-11.1,-4.1,-7.5,-6.1,-5.2,111.8,1.83,2.5,-45.7,0,,,0.0,,,ok
+2026-11-09,AIXA.DE,Aixtron,Chips e IA,SOXX,EUR,31.74,-5.5,-2.0,8.5,-9.2,-29.0,108.1,1.46,2.66,-47.5,0,,,0.0,,,ok
+2026-11-09,ALAB,Astera Labs,Chips e IA,SOXX,USD,216.87,-6.1,-2.6,-15.3,-13.3,22.9,115.5,2.03,3.48,-55.1,0,,,0.0,,,ok
+2026-11-09,AMAT,Applied Materials,Chips e IA,SOXX,USD,370.55,-1.6,1.9,-5.6,-12.2,1.0,123.8,1.51,2.71,-48.7,0,,,0.0,,,ok
+2026-11-09,AMZN,Amazon,Chips e IA,QQQ,USD,266.93,8.0,8.9,11.3,3.5,4.0,10.7,1.64,2.72,-6.0,0,,,0.0,,,ok
+2026-11-09,APH,Amphenol,Chips e IA,QQQ,USD,80.71,0.5,1.3,2.1,2.1,38.6,30.4,1.6,2.28,-8.9,0,,,0.0,,,ok
+2026-11-09,ARM,Arm Holdings,Chips e IA,SOXX,USD,186.3,-5.9,-2.4,-8.7,-13.6,5.1,72.5,1.59,3.61,-57.6,0,,,0.0,,,ok
+2026-11-09,ASM.AS,ASM International,Chips e IA,SOXX,EUR,673.0,-6.3,-2.8,-2.5,-7.9,-12.1,70.0,1.76,2.79,-37.6,0,,,0.0,,,ok
+2026-11-09,ASML.AS,ASML,Chips e IA,SOXX,EUR,1343.8,-4.6,-1.0,5.4,3.0,13.0,80.4,1.91,3.05,-21.7,0,,,0.0,,,ok
+2026-11-09,AVGO,Broadcom,Chips e IA,SOXX,USD,319.48,-1.4,2.1,9.7,-5.7,-8.3,5.0,1.37,2.48,-33.4,0,,,0.0,,,ok
+2026-11-09,BESI.AS,BE Semiconductor,Chips e IA,SOXX,EUR,147.0,-4.2,-0.7,3.3,-19.5,-33.9,33.4,1.23,2.23,-54.1,0,,,0.0,,,ok
+2026-11-09,CIEN,Ciena,Chips e IA,QQQ,USD,269.33,-5.8,-5.0,-30.5,-25.9,-51.5,128.9,1.47,2.25,-57.0,0,,,0.0,,,ok
+2026-11-09,COHR,Coherent,Chips e IA,SOXX,USD,225.19,12.0,15.5,-6.7,-14.3,-24.6,101.2,1.91,2.66,-47.2,0,,,0.0,,,ok
+2026-11-09,CRDO,Credo Technology,Chips e IA,SOXX,USD,132.89,-5.6,-2.1,-17.3,-29.7,-20.5,36.4,1.23,2.12,-56.1,0,,,0.0,,,ok
+2026-11-09,DELL,Dell Technologies,Chips e IA,QQQ,USD,346.31,-12.3,-11.5,-31.2,-16.5,47.4,306.5,1.1,2.14,-41.1,0,,,0.0,,,ok
+2026-11-09,GOOGL,Alphabet,Chips e IA,QQQ,USD,288.15,2.7,3.5,-8.5,-11.1,-22.2,27.0,1.44,2.26,-28.3,0,,,0.0,,,ok
+2026-11-09,IFX.DE,Infineon,Chips e IA,SOXX,EUR,48.62,-6.5,-3.0,4.0,-5.8,-15.5,77.9,1.72,2.91,-44.7,0,,,0.0,,,ok
+2026-11-09,INTC,Intel,Chips e IA,SOXX,USD,59.37,-1.6,1.9,-22.0,-22.3,-38.7,188.3,1.68,2.79,-57.9,0,,,0.0,,,ok
+2026-11-09,KLAC,KLA,Chips e IA,SOXX,USD,151.38,-1.7,1.8,-1.3,-7.1,-0.5,67.1,1.92,3.58,-49.8,0,,,0.0,,,ok
+2026-11-09,LITE,Lumentum,Chips e IA,SOXX,USD,596.16,-13.4,-9.9,-24.7,-10.1,-27.4,372.0,1.52,2.28,-47.4,0,,,0.0,,,ok
+2026-11-09,LRCX,Lam Research,Chips e IA,SOXX,USD,221.31,-3.3,0.2,-9.3,-11.7,-8.2,102.5,1.92,3.57,-48.9,0,,,0.0,,,ok
+2026-11-09,MELE.BR,Melexis,Chips e IA,SOXX,EUR,54.4,-2.5,1.0,7.4,-6.3,-18.0,19.3,2.38,3.83,-35.3,0,,,0.0,,,ok
+2026-11-09,META,Meta Platforms,Chips e IA,QQQ,USD,641.37,5.1,5.9,-1.2,12.8,12.4,19.5,0.99,1.68,-17.5,0,,,0.0,,,ok
+2026-11-09,MRVL,Marvell,Chips e IA,SOXX,USD,154.6,-10.3,-6.8,-22.5,-9.9,8.2,202.9,1.99,3.52,-51.1,0,,,0.0,,,ok
+2026-11-09,MU,Micron,Chips e IA,SOXX,USD,733.15,-12.6,-9.0,-7.4,2.0,9.9,343.1,1.63,3.23,-39.6,0,,,0.0,,,ok
+2026-11-09,NBIS,Nebius,Chips e IA,QQQ,USD,141.45,-0.5,0.3,-26.4,-22.1,-20.4,107.1,1.45,3.17,-50.7,0,,,0.0,,,ok
+2026-11-09,NOD.OL,Nordic Semiconductor,Chips e IA,SOXX,NOK,176.4,-3.8,-0.3,23.2,25.4,2.8,38.8,1.23,1.54,-15.0,0,,,0.0,,,ok
+2026-11-09,ONTO,Onto Innovation,Chips e IA,SOXX,USD,194.04,0.8,4.3,-12.8,-22.4,-16.0,129.2,1.69,2.71,-48.7,0,,,0.0,,,ok
+2026-11-09,ORCL,Oracle,Chips e IA,QQQ,USD,119.79,-0.1,0.7,-5.7,-12.4,-34.8,-39.7,2.05,4.2,-51.4,0,,,0.0,,,ok
+2026-11-09,PLTR,Palantir,Chips e IA,QQQ,USD,169.2,-5.7,-4.8,-9.5,2.1,29.5,22.4,1.5,2.27,-19.1,0,,,0.0,,,ok
+2026-11-09,QCOM,Qualcomm,Chips e IA,SOXX,USD,171.47,5.2,8.7,19.0,24.2,-10.4,6.1,1.79,3.75,-31.1,0,,,0.0,,,ok
+2026-11-09,SMCI,Super Micro Computer,Chips e IA,QQQ,USD,28.6,-6.6,-5.8,-22.1,-4.3,-10.6,6.4,1.61,2.65,-43.0,0,,,0.0,,,ok
+2026-11-09,SMHN.DE,SUSS MicroTec,Chips e IA,SOXX,EUR,45.5,-11.1,-7.6,-9.5,-28.2,-39.2,101.2,2.35,5.89,-59.3,0,,,0.0,,,ok
+2026-11-09,SNPS,Synopsys,Chips e IA,SOXX,USD,466.97,-0.4,3.1,12.8,32.1,8.1,32.0,0.88,1.34,-12.6,0,,,0.0,,,ok
+2026-11-09,SOI.PA,Soitec,Chips e IA,SOXX,EUR,99.88,-19.6,-16.1,-16.2,-7.1,-22.6,304.1,1.94,3.81,-48.0,0,,,0.0,,,ok
+2026-11-09,STMPA.PA,STMicroelectronics,Chips e IA,SOXX,EUR,39.63,-8.3,-4.8,6.5,-0.2,-14.8,127.8,1.4,1.9,-42.8,0,,,0.0,,,ok
+2026-11-09,TER,Teradyne,Chips e IA,SOXX,USD,246.0,-6.3,-2.8,-17.6,-18.1,-16.3,123.6,2.04,4.34,-49.1,0,,,0.0,,,ok
+2026-11-09,TSM,TSMC,Chips e IA,SOXX,USD,388.62,-3.1,0.4,7.0,10.1,14.5,62.4,2.0,4.4,-20.0,0,,,0.0,,,ok
+2026-11-09,XFAB.PA,X-FAB,Chips e IA,SOXX,EUR,5.1,-2.9,0.7,4.2,-11.2,-26.5,28.5,1.47,2.77,-58.2,0,,,0.0,,,ok
+2026-11-09,AIR.PA,Airbus,Defensa,pares de Defensa,EUR,206.0,5.1,8.8,3.4,7.3,11.8,-9.8,1.32,1.74,-4.7,0,,,0.0,,,ok
+2026-11-09,AM.PA,Dassault Aviation,Defensa,pares de Defensa,EUR,309.6,1.8,5.3,3.6,7.5,0.7,3.3,0.78,1.04,-10.9,0,,,0.0,,,ok
+2026-11-09,BA.L,BAE Systems,Defensa,pares de Defensa,GBp,1913.0,-7.9,-5.0,-2.2,-2.8,-7.9,5.8,1.18,2.16,-17.9,0,,,0.0,,,ok
+2026-11-09,BAB.L,Babcock International,Defensa,pares de Defensa,GBp,1054.5,2.0,5.6,11.4,0.3,-2.6,-20.7,1.06,1.77,-29.8,0,,,0.0,,,ok
+2026-11-09,CHG.L,Chemring,Defensa,pares de Defensa,GBp,545.5,-3.7,-0.5,2.0,-2.8,13.5,-1.0,0.65,1.0,-14.5,0,,,0.0,,,ok
+2026-11-09,DRS,Leonardo DRS,Defensa,ITA,USD,36.41,-2.0,-1.5,-3.6,-3.9,-7.6,6.1,1.81,3.2,-26.6,0,,,0.0,,,ok
+2026-11-09,ESLT,Elbit Systems,Defensa,ITA,USD,721.93,-3.3,-2.9,6.2,7.9,-4.5,45.6,1.03,1.63,-28.5,0,,,0.0,,,ok
+2026-11-09,EXA.PA,Exail Technologies,Defensa,pares de Defensa,EUR,125.5,0.0,3.4,-6.3,11.7,2.7,64.6,0.57,1.11,-15.7,0,,,0.0,,,ok
+2026-11-09,FCT.MI,Fincantieri,Defensa,pares de Defensa,EUR,12.14,-4.7,-1.6,-9.8,8.0,-2.1,-39.7,1.34,2.2,-40.0,0,,,0.0,,,ok
+2026-11-09,GD,General Dynamics,Defensa,ITA,USD,362.07,-3.6,-3.2,5.2,7.6,11.4,1.6,1.23,1.54,-8.1,0,,,0.0,,,ok
+2026-11-09,HAG.DE,Hensoldt,Defensa,pares de Defensa,EUR,82.8,-1.0,2.3,2.3,0.4,0.8,-19.3,1.55,2.75,-13.8,0,,,0.0,,,ok
+2026-11-09,HEI,HEICO,Defensa,ITA,USD,342.71,0.9,1.4,10.8,8.2,24.1,-3.6,0.97,1.36,-8.5,0,,,0.0,,,ok
+2026-11-09,HII,Huntington Ingalls,Defensa,ITA,USD,304.36,-3.5,-3.1,10.9,8.0,1.4,-9.6,1.1,1.76,-32.3,0,,,0.0,,,ok
+2026-11-09,HO.PA,Thales,Defensa,pares de Defensa,EUR,228.7,-1.4,1.9,-1.8,-5.8,-6.5,-7.8,1.28,1.64,-15.9,0,,,0.0,,,ok
+2026-11-09,IDR.MC,Indra,Defensa,pares de Defensa,EUR,59.12,-8.6,-5.7,-8.3,1.8,8.7,25.6,1.68,2.58,-9.6,0,,,0.0,,,ok
+2026-11-09,KOG.OL,Kongsberg Gruppen,Defensa,pares de Defensa,NOK,349.6,-4.6,-1.5,14.7,21.7,12.7,29.4,1.1,1.73,-16.3,0,,,0.0,,,ok
+2026-11-09,KRMN,Karman,Defensa,ITA,USD,45.9,16.6,17.0,36.8,-11.7,-18.1,-55.4,1.68,3.19,-60.2,0,,,0.0,,,ok
+2026-11-09,LDO.MI,Leonardo,Defensa,pares de Defensa,EUR,50.43,-3.1,0.1,1.3,-5.5,-8.1,-6.7,1.43,2.15,-20.6,0,,,0.0,,,ok
+2026-11-09,LDOS,Leidos,Defensa,ITA,USD,135.76,-6.4,-5.9,7.5,11.5,12.3,-35.2,1.56,2.74,-30.9,0,,,0.0,,,ok
+2026-11-09,LHX,L3Harris,Defensa,ITA,USD,271.42,-3.3,-2.8,10.5,10.2,-5.0,-13.3,1.28,2.1,-27.4,0,,,0.0,,,ok
+2026-11-09,LMT,Lockheed Martin,Defensa,ITA,USD,588.19,-9.1,-8.6,11.4,13.9,22.0,14.3,1.33,2.7,-12.0,0,,,0.0,,,ok
+2026-11-09,NOC,Northrop Grumman,Defensa,ITA,USD,539.07,-3.5,-3.1,8.1,8.9,4.1,-12.4,1.27,2.01,-29.2,0,,,0.0,,,ok
+2026-11-09,QQ.L,QinetiQ,Defensa,pares de Defensa,GBp,532.0,-2.3,1.0,12.4,5.2,26.2,4.9,0.93,2.08,-6.9,0,,,0.0,,,ok
+2026-11-09,R3NK.DE,Renk,Defensa,pares de Defensa,EUR,35.78,-2.3,1.0,-1.4,-19.6,-31.4,-47.7,1.22,2.49,-46.2,0,,,0.0,,,ok
+2026-11-09,RTX,RTX,Defensa,ITA,USD,196.31,-3.8,-3.3,1.5,2.6,16.2,10.5,1.2,1.78,-12.9,0,,,0.0,,,ok
+2026-11-09,SAAB-B.ST,Saab,Defensa,pares de Defensa,SEK,639.5,-3.1,0.1,1.4,5.1,19.3,15.2,1.2,1.6,-12.0,0,,,0.0,,,ok
+2026-11-09,THEON.AS,Theon International,Defensa,pares de Defensa,EUR,28.06,-5.4,-2.3,-5.8,-16.5,-19.7,2.5,1.27,1.72,-26.8,0,,,0.0,,,ok
+2026-11-09,ABBN.SW,ABB,Energía y red,GRID,CHF,68.6,-3.8,-1.2,-1.6,-4.2,-3.4,39.4,1.85,3.24,-22.5,0,,,0.0,,,ok
+2026-11-09,ANE.MC,Acciona Energía,Energía y red,EXH9.DE,EUR,22.48,3.8,0.7,-2.5,0.4,-14.0,-12.3,1.19,1.76,-7.7,0,,,0.0,,,ok
+2026-11-09,BE,Bloom Energy,Energía y red,GRID,USD,193.88,-1.8,0.8,-19.8,5.9,-13.4,110.1,1.47,2.74,-43.9,0,,,0.0,,,ok
+2026-11-09,CEG,Constellation Energy,Energía y red,XLU,USD,276.09,6.7,7.0,-13.1,-1.8,-6.2,-12.5,1.74,2.53,-26.8,0,,,0.0,,,ok
+2026-11-09,ELE.MC,Endesa,Energía y red,EXH9.DE,EUR,44.2,1.8,-1.3,-3.4,1.0,15.0,36.7,1.02,1.29,-1.4,0,,,0.0,,,ok
+2026-11-09,ELI.BR,Elia,Energía y red,EXH9.DE,EUR,135.3,4.2,1.1,6.8,-2.2,-4.3,14.4,0.95,1.53,-3.4,0,,,0.0,,,ok
+2026-11-09,ENEL.MI,Enel,Energía y red,EXH9.DE,EUR,9.861,5.6,2.6,2.8,-3.9,-3.9,4.8,1.13,1.77,-1.8,0,,,0.0,,,ok
+2026-11-09,ENR.DE,Siemens Energy,Energía y red,GRID,EUR,124.1,-4.5,-1.9,-3.5,-11.1,-14.5,37.1,2.09,3.76,-33.9,0,,,0.0,,,ok
+2026-11-09,EOAN.DE,E.ON,Energía y red,EXH9.DE,EUR,19.16,2.2,-0.9,3.3,-1.4,-3.4,10.4,1.09,1.69,-2.8,0,,,0.0,,,ok
+2026-11-09,ETN,Eaton,Energía y red,GRID,USD,359.3,-2.4,0.2,-5.3,-8.0,5.2,17.7,2.15,3.33,-21.9,0,,,0.0,,,ok
+2026-11-09,GEV,GE Vernova,Energía y red,GRID,USD,829.34,-4.4,-1.8,-6.4,-4.1,-3.8,87.6,2.25,3.3,-29.4,0,,,0.0,,,ok
+2026-11-09,GRE.MC,Grenergy,Energía y red,EXH9.DE,EUR,74.4,11.9,8.8,-2.3,-30.2,-47.6,-8.4,1.06,1.42,-44.9,0,,,0.0,,,ok
+2026-11-09,HUBB,Hubbell,Energía y red,GRID,USD,441.57,1.2,3.8,4.2,-0.8,10.1,6.6,1.65,3.0,-20.4,0,,,0.0,,,ok
+2026-11-09,IBE.MC,Iberdrola,Energía y red,EXH9.DE,EUR,22.96,3.2,0.1,-0.4,6.1,11.4,22.9,1.06,2.09,0.0,0,,,0.0,,,ok
+2026-11-09,LR.PA,Legrand,Energía y red,GRID,EUR,133.95,0.8,3.4,7.5,6.1,1.8,5.6,1.79,3.09,-15.0,0,,,0.0,,,ok
+2026-11-09,NEE,NextEra Energy,Energía y red,XLU,USD,86.86,1.6,1.9,6.5,1.0,-5.7,-0.5,1.37,2.41,-9.9,0,,,0.0,,,ok
+2026-11-09,NEX.PA,Nexans,Energía y red,GRID,EUR,125.8,4.1,6.7,8.4,-0.9,-9.3,7.4,1.29,2.14,-23.7,0,,,0.0,,,ok
+2026-11-09,NG.L,National Grid,Energía y red,EXH9.DE,GBp,1255.5,0.1,-3.0,2.7,3.2,-4.3,2.1,1.32,2.8,-10.3,0,,,0.0,,,ok
+2026-11-09,NKT.CO,NKT,Energía y red,GRID,DKK,867.0,2.3,4.9,11.9,2.2,2.6,19.6,1.37,2.11,-22.0,0,,,0.0,,,ok
+2026-11-09,NTGY.MC,Naturgy,Energía y red,EXH9.DE,EUR,29.84,3.6,0.5,-5.8,-0.1,2.7,15.6,1.07,1.72,-2.1,0,,,0.0,,,ok
+2026-11-09,PRY.MI,Prysmian,Energía y red,GRID,EUR,107.0,-3.8,-1.2,-2.0,-6.4,-17.9,48.5,1.45,2.22,-31.8,0,,,0.0,,,ok
+2026-11-09,PWR,Quanta Services,Energía y red,GRID,USD,591.48,-5.3,-2.7,-5.2,2.2,-5.6,63.6,2.63,5.17,-24.7,0,,,0.0,,,ok
+2026-11-09,RED.MC,Redeia,Energía y red,EXH9.DE,EUR,15.67,2.3,-0.8,-1.9,-3.1,2.6,1.7,1.09,1.61,-0.3,0,,,0.0,,,ok
+2026-11-09,RWE.DE,RWE,Energía y red,EXH9.DE,EUR,58.6,3.7,0.6,-7.3,-3.7,-4.5,35.9,1.52,3.57,-3.6,0,,,0.0,,,ok
+2026-11-09,SLR.MC,Solaria,Energía y red,EXH9.DE,EUR,16.85,10.5,7.4,-3.3,-3.9,-40.1,2.4,1.0,1.63,-34.5,0,,,0.0,,,ok
+2026-11-09,SU.PA,Schneider Electric,Energía y red,GRID,EUR,234.4,-2.5,0.1,-0.9,-12.4,1.1,13.2,1.44,2.79,-24.6,0,,,0.0,,,ok
+2026-11-09,TLN,Talen Energy,Energía y red,XLU,USD,363.13,8.4,8.7,-9.8,0.4,-3.8,0.6,1.94,2.66,-17.1,0,,,0.0,,,ok
+2026-11-09,TRN.MI,Terna,Energía y red,EXH9.DE,EUR,9.798,2.5,-0.6,-1.1,-5.7,-6.5,5.7,0.9,1.3,-5.5,0,,,0.0,,,ok
+2026-11-09,VRT,Vertiv,Energía y red,GRID,USD,200.47,-11.1,-8.5,-6.4,-15.3,-27.8,36.2,1.87,4.04,-46.7,0,,,0.0,,,ok
+2026-11-09,AVIO.MI,Avio,Espacio,UFO,EUR,31.15,-1.6,-5.2,10.8,5.3,26.6,-2.3,1.35,2.76,-29.0,0,,,0.0,,,ok
+2026-11-09,BKSY,BlackSky,Espacio,UFO,USD,23.9,42.8,39.2,15.2,-6.9,-17.0,29.0,1.7,2.83,-53.7,0,,,0.0,,,ok
+2026-11-09,GOMX.ST,GomSpace,Espacio,UFO,SEK,12.6,1.3,-2.3,25.4,15.6,-5.5,-39.3,1.59,3.78,-50.0,0,,,0.0,,,ok
+2026-11-09,LUNR,Intuitive Machines,Espacio,UFO,USD,12.04,21.4,17.8,-7.7,-14.0,-38.6,41.5,1.55,2.7,-73.7,0,,,0.0,,,ok
+2026-11-09,MDA.TO,MDA Space,Espacio,UFO,CAD,43.41,16.3,12.7,13.9,5.2,13.0,67.7,1.37,2.51,-35.3,0,,,0.0,,,ok
+2026-11-09,OHB.DE,OHB,Espacio,UFO,EUR,203.5,-6.2,-9.8,30.0,-9.0,-32.6,49.8,0.81,1.35,-66.8,0,,,0.0,,,ok
+2026-11-09,PL,Planet Labs,Espacio,UFO,USD,14.37,10.2,6.6,-15.4,-26.8,-41.5,41.4,0.85,1.26,-72.0,0,,,0.0,,,ok
+2026-11-09,RDW,Redwire,Espacio,UFO,USD,8.15,3.5,-0.1,-13.9,-27.1,-7.3,64.3,1.49,2.2,-68.5,0,,,0.0,,,ok
+2026-11-09,RKLB,Rocket Lab,Espacio,UFO,USD,58.86,12.4,8.8,-12.7,-13.5,-24.9,41.0,1.25,2.02,-60.8,0,,,0.0,,,ok
+2026-11-09,SATL,Satellogic,Espacio,UFO,USD,3.965,28.0,24.4,-22.0,-18.3,-29.7,228.0,1.01,1.5,-63.1,0,,,0.0,,,ok
+2026-11-09,SPIR,Spire Global,Espacio,UFO,USD,9.46,10.1,6.5,-6.9,-23.5,-24.4,20.3,0.91,1.24,-62.9,0,,,0.0,,,ok
+2026-11-09,VOYG,Voyager Technologies,Espacio,UFO,USD,27.9,12.8,9.2,3.3,-22.3,17.4,17.3,1.08,1.69,-46.1,0,,,0.0,,,ok
+2026-11-09,ALB,Albemarle,Materias primas críticas,LIT,USD,99.12,8.8,7.2,9.9,-6.1,-20.7,15.1,1.41,2.71,-53.8,0,,,0.0,,,ok
+2026-11-09,ANTO.L,Antofagasta,Materias primas críticas,COPX,GBp,3305.0,1.4,-1.3,1.3,-3.4,-6.1,42.1,0.9,1.14,-25.8,0,,,0.0,,,ok
+2026-11-09,ATYM.L,Atalaya Mining,Materias primas críticas,COPX,GBp,878.5,1.6,-1.1,-4.5,3.0,17.2,59.4,1.28,4.44,-20.8,0,,,0.0,,,ok
+2026-11-09,BOL.ST,Boliden,Materias primas críticas,COPX,SEK,519.8,-0.2,-2.9,8.5,8.2,8.1,33.6,1.21,1.62,-26.4,0,,,0.0,,,ok
+2026-11-09,FCX,Freeport-McMoRan,Materias primas críticas,COPX,USD,62.33,-1.6,-4.3,-3.0,5.9,11.6,96.9,1.22,2.41,-21.8,0,,,0.0,,,ok
+2026-11-09,GLEN.L,Glencore,Materias primas críticas,COPX,GBp,515.4,-0.9,-3.6,1.8,4.4,4.5,69.6,0.78,1.21,-18.1,0,,,0.0,,,ok
+2026-11-09,ILU.AX,Iluka Resources,Materias primas críticas,REMX,AUD,6.2,4.7,-1.6,20.7,13.1,18.8,-3.8,1.34,2.3,-27.2,0,,,0.0,,,ok
+2026-11-09,KAP.L,Kazatomprom,Materias primas críticas,URA,USD,60.9,-0.9,3.6,13.1,11.9,,,0.88,1.14,-20.4,0,,,0.0,,,ok
+2026-11-09,LYC.AX,Lynas Rare Earths,Materias primas críticas,REMX,AUD,13.15,6.3,0.0,17.3,6.6,16.8,-4.2,1.23,1.77,-40.4,0,,,0.0,,,ok
+2026-11-09,NDA.DE,Aurubis,Materias primas críticas,COPX,EUR,142.0,3.2,0.5,0.8,-7.0,-25.3,45.3,1.05,2.25,-35.2,0,,,0.0,,,ok
+2026-11-09,NXE,NexGen Energy,Materias primas críticas,URA,USD,8.75,10.3,6.6,11.7,7.0,9.6,10.3,1.48,2.41,-37.1,0,,,0.0,,,ok
+2026-11-09,SQM,SQM,Materias primas críticas,LIT,USD,56.7,3.1,1.5,0.7,-2.9,-5.7,46.0,0.86,1.36,-38.9,0,,,0.0,,,ok
+2026-11-09,UMI.BR,Umicore,Materias primas críticas,LIT,EUR,18.91,4.6,3.0,2.2,-5.8,2.4,25.2,1.24,2.08,-28.6,0,,,0.0,,,ok
+2026-11-09,AMP.MC,Amper,Telecom y satélites,EXV2.DE,EUR,4.83,1.6,1.6,2.8,2.3,6.3,29.3,1.31,2.71,-11.4,0,,,0.0,,,ok
+2026-11-09,CLNX.MC,Cellnex,Telecom y satélites,EXV2.DE,EUR,26.77,2.0,2.0,8.5,0.5,8.4,-6.7,0.88,1.39,-16.3,0,,,0.0,,,ok
+2026-11-09,ERIC-B.ST,Ericsson,Telecom y satélites,EXV2.DE,SEK,103.4,-5.8,-5.8,5.4,9.9,-0.8,3.8,0.93,1.8,-17.5,0,,,0.0,,,ok
+2026-11-09,ETL.PA,Eutelsat,Telecom y satélites,UFO,EUR,1.8625,0.1,-3.6,36.0,-1.4,-10.8,-57.4,0.6,1.43,-58.7,0,,,0.0,,,ok
+2026-11-09,INW.MI,Inwit,Telecom y satélites,EXV2.DE,EUR,7.245,-2.4,-2.4,-0.3,16.0,22.6,-16.9,0.63,0.9,-12.6,0,,,0.0,,,ok
+2026-11-09,IRDM,Iridium,Telecom y satélites,UFO,USD,45.08,2.5,-1.1,-4.1,5.0,32.7,194.0,0.99,1.59,-18.8,0,,,0.0,,,ok
+2026-11-09,NOKIA.HE,Nokia,Telecom y satélites,EXV2.DE,EUR,6.982,-9.9,-8.3,-22.3,-11.6,-25.7,55.0,0.94,1.87,-52.0,0,,,0.0,,,ok
+2026-11-09,SATS,EchoStar,Telecom y satélites,UFO,USD,95.5,4.1,0.5,,,,,,,0.0,0,,,0.0,,,ok
+2026-11-09,SESG.PA,SES,Telecom y satélites,UFO,EUR,4.724,14.1,10.5,35.8,5.5,-10.1,-21.2,0.89,2.24,-48.9,0,,,0.0,,,ok
+2026-11-09,TEF.MC,Telefónica,Telecom y satélites,EXV2.DE,EUR,3.411,0.9,1.0,1.4,-3.3,0.6,-3.2,0.98,1.5,-13.6,0,,,0.0,,,ok
+2026-11-09,TSAT,Telesat,Telecom y satélites,UFO,USD,45.3,20.6,17.0,-0.5,-10.8,9.0,75.4,1.09,2.51,-26.2,0,,,0.0,,,ok
+2026-11-09,VOD.L,Vodafone,Telecom y satélites,EXV2.DE,GBp,116.95,-0.1,-0.1,-3.2,3.3,18.1,38.9,1.49,5.3,-11.2,0,,,0.0,,,ok
+2026-11-09,VSAT,Viasat,Telecom y satélites,UFO,USD,74.37,-0.2,-3.8,4.3,1.3,29.2,108.0,1.9,2.62,-17.2,0,,,0.0,,,ok
