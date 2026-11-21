@@ -1,6 +1,6 @@
 {
- "fecha_datos": "2026-11-13",
- "generado_utc": "2026-11-14 13:56",
+ "fecha_datos": "2026-11-20",
+ "generado_utc": "2026-11-21 15:04",
  "valores": 160,
  "con_datos": 160,
  "senales": 12,
@@ -8,6 +8,6 @@
  "datos_atrasados": [],
  "referencias_sin_datos": [],
  "divisas_sin_cambio": [],
- "sec": "ok (OpenInsider; 4 valores con compras)",
- "segundos": 94
+ "sec": "ok (OpenInsider; 6 valores con compras)",
+ "segundos": 83
 }
